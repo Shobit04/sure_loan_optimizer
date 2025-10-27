@@ -1,0 +1,37 @@
+# Loan Optimizer Platform
+
+AI-Powered Loan Comparison and Optimization Tool
+
+## Quick Start
+
+1. **Backend**: `cd backend && .\venv\Scripts\Activate.ps1 && python main.py`
+2. **Frontend**: `cd frontend && npm install && npm start`
+3. **Configure**: Add GEMINI_API_KEY to backend/.env
+
+See QUICKSTART.md for detailed instructions.
+
+## Structure
+
+```
+sure_loan_optimizer/
+├── backend/           # FastAPI + Python
+│   ├── main.py
+│   ├── calculations.py
+│   ├── ai_service.py
+│   └── models.py
+├── frontend/          # React + Tailwind
+│   └── src/
+│       ├── components/
+│       └── services/
+└── README.md
+```
+
+## Features
+
+✅ EMI Calculator with visualizations
+✅ Multi-loan comparison with AI ranking
+✅ Prepayment impact calculator
+✅ AI chatbot for loan advice
+✅ Personalized savings strategies
+
+Built with React, FastAPI, and Google Gemini AI.
